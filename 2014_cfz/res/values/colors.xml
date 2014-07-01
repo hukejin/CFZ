@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <color name="red">#ffffff00</color>
+    <color name="Transparent">#50000000</color>
+    <color name="taskTitle">#ff66ccff</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="focused">#808080FF</color>
+    <color name="transblack">#20000000</color>
+    <color name="black">#000000</color>
+    <color name="blue">#ffA0F091</color>
+    <color name="lightgray">#ff999999</color>
+    <color name="item_color_background">#fff8f8f8</color>
+	<color name="item_textGroupTitle_color">#4682B4</color>
+	<color name="windowbg">#C1C1C1</color>
+	<color name="ipctrlbg">#FFDFDFDF</color>
+	<color name="teltv">#4B4B4B</color>
+	<color name="gray">#ff3f3e3e</color>
+	<color name="item_devider_color">#ffCCCCCC</color>
+	<color name="main_item_color_background">#ffDDDDDD</color>
+	<color name="gray_text">#ff666666</color>
+	<color name="transparent">#00000000</color>
+	<color name="option_item_pressed">#ff007AE2</color>
+	<color name="option_item_normal">#ffDDDDDD</color>
+	<color name="integral_item_bg">#88ffffff</color>
+	<color name="integral_title_bg">#88999999</color>
+	<color name="indenttvcolor">#ff6e6e6e</color>
+	<!-- 百度地图画圈 -->
+	<color name="baidumap_circle">#7d0c5ee6</color>
+	<color name="customertv">#A0A0A0</color>
+</resources>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/list_main_item_bg"
+    android:orientation="vertical"
+    android:padding="10dip" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/main_item_title"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:textColor="@color/black"
+                android:textSize="16.0sp" />
+
+            <TextView
+                android:id="@+id/main_item_state"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dip"
+                android:layout_marginTop="5dip"
+                android:ellipsize="end"
+                android:gravity="right"
+                android:textColor="#F87F3F"
+                android:textSize="16.0sp" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="0.9dip"
+            android:layout_gravity="center"
+            android:contentDescription="@string/imageView_desc"
+            android:src="@color/item_devider_color" >
+        </ImageView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/main_item_customer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="20.0sp" />
+
+                <TextView
+                    android:id="@+id/main_item_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dip"
+                    android:gravity="right"
+                    android:textColor="@color/gray" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                >
+
+                <Button
+                    android:id="@+id/delbtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:focusable="false"
+                    android:background="@drawable/btnbg"
+                    android:text="废弃" 
+                    android:textColor="#4B4B4B"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="0.9dip"
+        android:layout_gravity="center"
+        android:contentDescription="@string/imageView_desc"
+        android:src="@color/item_devider_color" >
+    </ImageView>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dip"
+        android:layout_marginTop="5dip"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/main_item_look"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/arrow_right"
+            android:text="@string/item_look"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+</LinearLayout>

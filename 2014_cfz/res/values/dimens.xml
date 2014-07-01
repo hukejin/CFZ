@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="OneDPPadding">1.0dip</dimen>
+    <!-- 字体大小 -->
+    <dimen name="YST_W_EBIG">30sp</dimen>
+    <dimen name="YST_W_MBIG">24sp</dimen>
+    <dimen name="YST_W_BIG">18sp</dimen>
+    <dimen name="YST_W_EMIDDLE">16sp</dimen>
+    <dimen name="YST_W_MIDDLE">13sp</dimen>
+    <dimen name="YST_W_SMIDDLE">14sp</dimen>
+    <dimen name="YST_W_COMMON">12sp</dimen>
+    <dimen name="YST_W_SMALL">10sp</dimen>
+    <dimen name="font_16">16sp</dimen>
+    <dimen name="font_9">9sp</dimen>
+    <dimen name="font_20">20sp</dimen>
+    <dimen name="font_15">15sp</dimen>
+    <dimen name="font_14">14sp</dimen>
+    <dimen name="font_11">11sp</dimen>
+    <dimen name="btnwithimg_heigh">48dp</dimen>
+    <dimen name="img_heigh">108dp</dimen>
+    <dimen name="img_width">108dp</dimen>
+    <dimen name="img_iconwidth">20dp</dimen>
+	<dimen name="grid_item_w">1dp</dimen>
+	<!-- 按住录音按钮大小 -->
+	<dimen name="rvoice_heigh">48dp</dimen>
+    <dimen name="rvoice_width">240dp</dimen>
+    <!-- 录制的按钮大小 -->
+     <dimen name="rvoice_item_width">240dp</dimen>
+     <dimen name="rvoice_item_heigh">48dp</dimen>
+     <dimen name="rvoice_item_padding">8dp</dimen>
+     
+     <!-- 历史记录的附件功能表 -->
+     <dimen name="line_width">72dp</dimen>
+     <dimen name="imgview_width">64dp</dimen>
+     <dimen name="linege_width">5dp</dimen>
+     <dimen name="gn_line_heigh">96dp</dimen>
+     
+     
+     <dimen name="updatebar_height">62.0dip</dimen>
+    <dimen name="updatebar_content_height">60.0dip</dimen>
+    <dimen name="updatebar_padding">10.0dip</dimen>
+    
+    <dimen name="itemline_ge">10.0dip</dimen>
+    
+    <!-- popwindow -->
+    <dimen name="popwindow_item">48dp</dimen>
+    <dimen name="popwindow_width">280dp</dimen>
+    
+    <!-- 续报 textview缩进 -->
+    <dimen name="textview_paddingleft">5dp</dimen>
+    <!-- 主界面按钮的高度 -->
+    <dimen name="mainbtn_height">80dp</dimen>
+</resources>

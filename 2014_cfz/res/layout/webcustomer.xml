@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainbg"
+    android:orientation="vertical" >
+    <WebView android:id="@+id/webview" android:layout_width="match_parent" android:layout_height="match_parent"
+        />
+	<LinearLayout android:id="@+id/loadingline"
+	    android:layout_width="match_parent" android:layout_height="match_parent"
+	    android:orientation="horizontal" android:gravity="center" android:visibility="gone">
+	    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+	        android:textColor="@color/indenttvcolor" android:textSize="18sp" android:text="正在努力加载..."/>
+	    <ProgressBar android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+	</LinearLayout>
+</FrameLayout>

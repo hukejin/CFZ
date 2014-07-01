@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainbg"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:id="@+id/main_detail_media_frame"
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        android:background="@color/main_item_color_background" >
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/main_detail_viewpagerLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="200dp" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="200dp" >
+
+            <LinearLayout
+                android:id="@+id/dot_image_group"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="7dip"
+                android:layout_marginRight="7dip"
+                android:gravity="right"
+                android:orientation="horizontal" >
+            </LinearLayout>
+        </RelativeLayout>
+    </FrameLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/btn_indent"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/mainbtn_height"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/cfzindentbtn_bg"
+                android:text="订单信息"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btn_customer"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/mainbtn_height"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/cfzinfobtn_bg"
+                android:text="个人信息"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainbg"
+    android:baselineAligned="false"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/integral_item_bg"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dip"
+            android:layout_marginRight="15dip"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15.0dip"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/register_username"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+
+                <cn.com.cfz.kuozhan.MMClearEditText
+                    android:id="@+id/register_username"
+                    android:layout_width="fill_parent"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/edittext_bg_selector_red"
+                    android:hint="@string/register_username_hint"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+
+                <requestFocus />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15.0dip"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/register_password"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+
+                <cn.com.cfz.kuozhan.MMClearEditText
+                    android:id="@+id/register_password"
+                    android:layout_width="fill_parent"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/edittext_bg_selector_red"
+                    android:hint="@string/register_password_hint"
+                    android:inputType="textPassword"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+            </LinearLayout>
+            
+             <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15.0dip"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/register_repassword"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+
+                <cn.com.cfz.kuozhan.MMClearEditText
+                    android:id="@+id/register_repassword"
+                    android:layout_width="fill_parent"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/edittext_bg_selector_red"
+                    android:hint="@string/register_repassword_hint"
+                    android:inputType="textPassword"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15.0dip"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/register_telmobile"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+
+                <cn.com.cfz.kuozhan.MMClearEditText
+                    android:id="@+id/register_telmobile"
+                    android:layout_width="fill_parent"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/edittext_bg_selector_red"
+                    android:hint="@string/register_telmobile_hint"
+                    android:inputType="phone"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+            </LinearLayout>
+            
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15.0dip"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/register_email"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+
+                <cn.com.cfz.kuozhan.MMClearEditText
+                    android:id="@+id/register_email"
+                    android:layout_width="fill_parent"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/edittext_bg_selector_red"
+                    android:hint="@string/register_email_hint"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+            </LinearLayout>
+            
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15.0dip"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/register_card"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+
+                <cn.com.cfz.kuozhan.MMClearEditText
+                    android:id="@+id/register_card"
+                    android:layout_width="fill_parent"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/edittext_bg_selector_red"
+                    android:hint="@string/register_card_hint"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+           <!--  <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15.0dip"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/register_makecode"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+
+                <cn.com.cfz.kuozhan.MMClearEditText
+                    android:id="@+id/register_makecode"
+                    android:layout_width="fill_parent"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/edittext_bg_selector_red"
+                    android:hint="@string/register_makecode_hint"
+                    android:singleLine="true"
+                    android:inputType="phone"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+            </LinearLayout> -->
+
+            <Button
+                android:id="@+id/btn_submit"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dip"
+                android:background="@drawable/report_bg_style"
+                android:padding="10dip"
+                android:text="@string/setting_button_submit_txt"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

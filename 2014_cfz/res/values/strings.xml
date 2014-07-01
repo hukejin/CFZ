@@ -1,0 +1,38 @@
+<resources>
+
+    <string name="app_name">沃创富</string>
+	 <string name="imageView_desc">图片描述</string>
+    <string name="drop_down">下拉可以刷新</string>
+    <string name="release_update">松开可以刷新</string>
+    <string name="doing_update">加载中.....</string>
+    <string name="update_time">更新于</string>
+    <string name="item_loadmore">更多.....</string>
+    <string name="item_look">立即查看</string>
+    
+    <string name="eventtype">事件类型</string>
+    <!-- 我要爆料  外网   administrator  yxm1234%^&*  211.91.228.204:33891-->
+    <string name="webservice_url">http://211.91.228.204:9090/cfzwebservice/services/CGTService</string>
+    <!-- <string name="webservice_url">http://192.168.1.101:8080/cfzwebservice/services/CGTService</string> -->
+    
+    <string name="register_username">用&#160;&#160;户&#160;&#160;名：</string>
+    <string name="register_password">用户密码：</string>
+    <string name="register_calltel">用&#160;&#160;户&#160;&#160;名：</string>
+    <string name="register_username_hint">请输入用户名</string>
+    <string name="register_calltel_hint">请输入邮箱(必填)</string>
+    <string name="register_password_hint">请输入密码(必填)</string>
+    <string name="register_telmobile">联系电话：</string>
+    <string name="register_telmobile_hint">手机号码(必填)</string>
+    <string name="register_card">身份证号：</string>
+    <string name="register_card_hint">身份证号</string>
+    <string name="register_makecode">推广号码：</string>
+    <string name="register_makecode_hint">推广号码(必填)</string>
+    <string name="setting_button_submit_txt">提&#160;&#160;&#160;&#160;交</string>
+    <string name="setting_register_title">用户注册</string>
+    <string name="register_repassword">重复密码：</string>
+    <string name="register_repassword_hint">再次输入密码(必填)</string>
+    <string name="register_email">邮箱地址：</string>
+    <string name="register_email_hint">请输入邮箱地址(必填)</string>
+    <string name="main_title">财富人生</string>
+    <string name="indent_title">订单详情</string>
+    <string name="pic_url">http://211.91.228.204:9090/cfz_hw/upload/</string>
+</resources>
